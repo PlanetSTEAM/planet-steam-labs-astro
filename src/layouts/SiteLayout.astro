@@ -1,0 +1,24 @@
+---
+import "../styles/global.css";
+const canonical = new URL(import.meta.env.BASE_URL, Astro.site).href;
+---
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="canonical" href={canonical}>
+<meta name="theme-color" content="#0E1526">
+<meta property="og:title" content="Planet STEAM Labs">
+<meta property="og:description" content="Software, datos e inteligencia artificial aplicados a procesos de negocio.">
+<meta property="og:url" content={canonical}>
+<meta property="og:type" content="website">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planet STEAM Labs — Implementación de IA para empresas</title>
+<meta name="description" content="Planet STEAM Labs: software, inteligencia artificial, automatización, ingeniería de datos y arquitectura tecnológica para empresas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap" rel="stylesheet">
+
+</head>
+<body><slot /><script>import "../scripts/interactions.ts";</script></body>
+</html>

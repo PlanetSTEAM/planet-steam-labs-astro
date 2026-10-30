@@ -1,0 +1,11 @@
+import { readFileSync } from 'node:fs';
+import { spawn } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+import { dirname, delimiter } from 'node:path';
+const [command = 'dev', ...args] = process.argv.slice(2);
+const astroPackage = JSON.parse(readFileSync(new URL('../node_modules/astro/package.json', import.meta.url), 'utf8'));
+const cli = fileURLToPath(new URL('../node_modules/astro/' + astroPackage.bin.astro, import.meta.url));
+const serverArgs = ['dev', 'preview'].includes(command) ? ['--host', '127.0.0.1', '--port', '8092'] : [];
+const child = spawn(process.execPath, [cli, command, ...serverArgs, ...args], { stdio: 'inherit', env: { ...process.env, PATH: dirname(process.execPath) + delimiter + (process.env.PATH ?? process.env.Path ?? ''), ASTRO_TELEMETRY_DISABLED: '1', LABS_BUILD: ['build', 'preview'].includes(command) ? '1' : '0' } });
+child.on('exit', (code) => process.exit(code ?? 1));
+child.on('error', (error) => { console.error(error.message); process.exit(1); });

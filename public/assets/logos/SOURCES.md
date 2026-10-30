@@ -1,0 +1,55 @@
+# Brand artwork sources
+
+Original brand artwork distributed by Devicon (MIT): https://github.com/devicons/devicon
+Converted from SVG to transparent PNG without redrawing. Brand names and marks belong to their owners.
+
+- angular: https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg
+- astro: https://raw.githubusercontent.com/devicons/devicon/master/icons/astro/astro-original.svg
+- aws: https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original.svg
+- azure: https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg
+- css: https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg
+- docker: https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg
+- dotnet: https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg
+- electron: https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg
+- fastapi: https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg
+- firebase: https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-original.svg
+- flutter: https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg
+- gcp: https://raw.githubusercontent.com/devicons/devicon/master/icons/googlecloud/googlecloud-original.svg
+- go: https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original-wordmark.svg
+- html: https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg
+- java: https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg
+- javascript: https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg
+- kotlin: https://raw.githubusercontent.com/devicons/devicon/master/icons/kotlin/kotlin-original.svg
+- laravel: https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg
+- next: https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg
+- node: https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg
+- nuxt: https://raw.githubusercontent.com/devicons/devicon/master/icons/nuxtjs/nuxtjs-original.svg
+- php: https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg
+- postgres: https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg
+- python: https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg
+- react: https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg
+- redis: https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg
+- supabase: https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg
+- swift: https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg
+- tailwind: https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg
+- typescript: https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg
+- vue: https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg
+- wordpress: https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-original.svg
+- google: https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg
+- shopify: https://cdn.simpleicons.org/shopify
+- n8n: https://cdn.simpleicons.org/n8n
+- sheets: https://cdn.simpleicons.org/googlesheets
+- looker: https://cdn.simpleicons.org/looker
+- strapi: https://cdn.simpleicons.org/strapi
+- langgraph: https://cdn.simpleicons.org/langgraph
+- spring: https://cdn.simpleicons.org/springboot
+- sqlite: https://cdn.simpleicons.org/sqlite
+- pandas: https://cdn.simpleicons.org/pandas
+- powerbi: https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg
+- superset: https://cdn.simpleicons.org/apachesuperset
+- ansible: https://cdn.simpleicons.org/ansible
+- opentofu: https://cdn.simpleicons.org/opentofu
+- prometheus: https://cdn.simpleicons.org/prometheus
+- opentelemetry: https://cdn.simpleicons.org/opentelemetry
+- keycloak: https://cdn.simpleicons.org/keycloak
+- openbao: https://cdn.simpleicons.org/openbao
